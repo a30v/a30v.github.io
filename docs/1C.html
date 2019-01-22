@@ -19,7 +19,207 @@
 
 <span style="color: red;">КонецЦикла</span><span style="color: red;">;</span>
 </pre>
+
+<pre style="color: blue; overflow: auto;">
+ВЫБРАТЬ
+	ДОБАВИТЬКДАТЕ<span style="color: red;">(</span><span style="color: brown;">&ДатаНач, ДЕНЬ, aa.a * 1000 + bb.b * 100 + cc.c * 10 + dd.d) КАК Период</span>
+{ВЫБРАТЬ
+	Период}
+<span style="color: red;">ИЗ</span>
+	<span style="color: red;">(</span>ВЫБРАТЬ
+		<span style="color: black;">0</span> КАК a
 	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">1</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">2</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">3</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">4</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">5</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">6</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">7</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">8</span>
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ
+		<span style="color: black;">9</span><span style="color: red;">)</span> КАК aa
+		ПОЛНОЕ СОЕДИНЕНИЕ <span style="color: red;">(</span>ВЫБРАТЬ
+			<span style="color: black;">0</span> КАК b
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">1</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">2</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">3</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">4</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">5</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">6</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">7</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">8</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">9</span><span style="color: red;">)</span> КАК bb
+		<span style="color: red;">ПО</span> <span style="color: red;">(</span><span style="color: red;">ИСТИНА</span><span style="color: red;">)</span>
+		ПОЛНОЕ СОЕДИНЕНИЕ <span style="color: red;">(</span>ВЫБРАТЬ
+			<span style="color: black;">0</span> КАК c
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">1</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">2</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">3</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">4</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">5</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">6</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">7</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">8</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">9</span><span style="color: red;">)</span> КАК cc
+		<span style="color: red;">ПО</span> <span style="color: red;">(</span><span style="color: red;">ИСТИНА</span><span style="color: red;">)</span>
+		ПОЛНОЕ СОЕДИНЕНИЕ <span style="color: red;">(</span>ВЫБРАТЬ
+			<span style="color: black;">0</span> КАК d
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">1</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">2</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">3</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">4</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">5</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">6</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">7</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">8</span>
+		
+		ОБЪЕДИНИТЬ
+		
+		ВЫБРАТЬ
+			<span style="color: black;">9</span><span style="color: red;">)</span> КАК dd
+		<span style="color: red;">ПО</span> <span style="color: red;">(</span><span style="color: red;">ИСТИНА</span><span style="color: red;">)</span>
+ГДЕ
+	aa<span style="color: red;">.</span>a <span style="color: red;">*</span> <span style="color: black;">1000</span> <span style="color: red;">+</span> bb<span style="color: red;">.</span>b <span style="color: red;">*</span> <span style="color: black;">100</span> <span style="color: red;">+</span> cc<span style="color: red;">.</span>c <span style="color: red;">*</span> <span style="color: black;">10</span> <span style="color: red;">+</span> dd<span style="color: red;">.</span>d <span style="color: red;"><</span><span style="color: red;">=</span> РАЗНОСТЬДАТ<span style="color: red;">(</span><span style="color: brown;">&ДатаНач, &ДатаКон, ДЕНЬ)</span>
+</pre>
 <a title="Перейти в начало страницы" href="#top">Вверх</a>
 </body>
 </html>
